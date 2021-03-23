@@ -3,7 +3,7 @@
 import GoogleActions from './PageActions/GoogleActions.js'
 import SeleniumActions from './PageActions/SeleniumActions.js'
 
-describe('Example3', () => {
+describe('Example4', () => {
     before(() => {
       cy.visit('http://www.google.com')
     })

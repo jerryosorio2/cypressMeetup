@@ -22,5 +22,11 @@ Execute test
 npm test
 ```
 
+Or to execute specific test group use the following command
+
+```bash
+npx cypress run --spec 'pathOfSpecs'
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
