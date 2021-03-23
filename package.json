@@ -17,7 +17,7 @@
     "cypress": "^6.8.0"
   },
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "git@github.com:jerryosorio2/cypressMeetup.git"
   }
 }
