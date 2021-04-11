@@ -1,4 +1,3 @@
-// Example -> Fixture structure
 /// <reference types="cypress" />
 import GoogleActions from './PageActions/GoogleActions.js'
 import SeleniumActions from './PageActions/SeleniumActions.js'

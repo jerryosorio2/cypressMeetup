@@ -1,9 +1,8 @@
-// Example -> POM structure (extend structure)
 /// <reference types="cypress" />
-import GoogleActions from './PageActions/GoogleActions.js'
-import SeleniumActions from './PageActions/SeleniumActions.js'
+import GoogleActions from './PageObjects/GoogleActions.js'
+import SeleniumActions from './PageObjects/SeleniumActions.js'
 
-describe('Example3', () => {
+describe('Example2', () => {
     before(() => {
       cy.visit('http://www.google.com')
     })
@@ -12,4 +11,5 @@ describe('Example3', () => {
         GoogleActions.search('Selenium')
         SeleniumActions.verifyTitle('Selenium')
     })
+
 })

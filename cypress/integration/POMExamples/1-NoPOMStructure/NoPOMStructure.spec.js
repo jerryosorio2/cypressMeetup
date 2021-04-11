@@ -1,4 +1,3 @@
-// Example -> no POM structure
 /// <reference types="cypress" />
 
 describe('Example1', () => {
