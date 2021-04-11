@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Example1', () => {
+describe('NoPOMStructure', () => {
     before(() => {
       cy.visit('http://www.google.com')
     })

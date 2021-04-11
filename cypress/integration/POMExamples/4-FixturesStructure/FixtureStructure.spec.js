@@ -2,7 +2,7 @@
 import GoogleActions from './PageActions/GoogleActions.js'
 import SeleniumActions from './PageActions/SeleniumActions.js'
 
-describe('Example4', () => {
+describe('FixtureStructure', () => {
     before(() => {
       cy.visit('http://www.google.com')
     })

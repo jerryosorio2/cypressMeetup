@@ -2,7 +2,7 @@
 import GoogleActions from './PageObjects/GoogleActions.js'
 import SeleniumActions from './PageObjects/SeleniumActions.js'
 
-describe('Example2', () => {
+describe('POMStructure', () => {
     before(() => {
       cy.visit('http://www.google.com')
     })
