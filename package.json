@@ -4,8 +4,8 @@
   "description": "Cypress Meetup",
   "main": "index.js",
   "scripts": {
-    "runHeadless": "cypress run",
-    "runConsole": "cypress open"
+    "headless": "cypress run",
+    "console": "cypress open"
   },
   "keywords": [
     "QA",
